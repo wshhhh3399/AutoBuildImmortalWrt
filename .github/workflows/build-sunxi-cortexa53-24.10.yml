@@ -9,7 +9,7 @@ on:
         required: true
         options:
           - xunlong_orangepi-zero3
-          - xunlong_Orange-Pi-5-Plus
+          - xunlong_orangepi-5-plus
           - friendlyarm_nanopi-r1s-h5
           - xunlong_orangepi-zero2
           - xunlong_orangepi-zero-plus
@@ -19,7 +19,7 @@ on:
           - libretech_all-h3-cc-h5
           - pine64_pine64-plus
           - pine64_sopine-baseboard
-        default: xunlong_Orange-Pi-5-Plus
+        default: xunlong_orangepi-5-plus
       include_docker:
         description: |
           是否编译 Docker 插件
